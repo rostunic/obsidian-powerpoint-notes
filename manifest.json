@@ -1,0 +1,10 @@
+{
+	"id": "powerpoint-notes",
+	"name": "PowerPoint Notes",
+	"version": "1.0.0",
+	"minAppVersion": "1.5.12",
+	"description": "Synchronize your PowerPoint slides with a markdown note in Obsidian.",
+	"author": "rostunic",
+	"authorUrl": "https://github.com/rostunic",
+	"isDesktopOnly": false
+}
