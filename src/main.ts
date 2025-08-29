@@ -1,4 +1,4 @@
-import { App, CachedMetadata, Editor, EditorPosition, Loc, MarkdownFileInfo, Plugin, TFile } from 'obsidian';
+import { App, CachedMetadata, Editor, EditorPosition, Loc, MarkdownFileInfo, Notice, Plugin, TFile } from 'obsidian';
 import { PowerPointFile } from './PowerPointFile';
 
 
@@ -24,24 +24,40 @@ export default class AliasPickerPlugin extends Plugin {
 				if (checking)
 					return true;
 
-				const frontmatter = fileCache?.frontmatter;
-				if (!frontmatter)
+				const frontmatter = fileCache.frontmatter;
+				const powerPointFilePath = frontmatter?.['powerPoint-file'];
+				if (!powerPointFilePath || typeof powerPointFilePath !== 'string') {
+					const notice = new Notice('You have to specify the path for your PowerPoint file in the frontmatter with `powerPoint-file: <path>.pptx`');
 					return;
-				const powerPointFilePath = frontmatter['powerPoint-file'];
-				if (!powerPointFilePath || typeof powerPointFilePath !== 'string' || !powerPointFilePath.endsWith('.pptx'))
+				}
+				if (!powerPointFilePath.endsWith('.pptx')) {
+					const notice = new Notice('The specified PowerPoint file path must end with `.pptx`');
+					notice.setMessage('The specified PowerPoint file path must end with `.pptx`');
 					return;
+				}
 				async function writeToPowerPoint(headersWithBulletPoints: HeaderBulletPoints) {
 					const powerPointFile = await PowerPointFile.loadAsync(powerPointFilePath);
 					const modifiedPath = powerPointFilePath.replace('.pptx', `_modified.pptx`);
-					const clonedFile = await powerPointFile.copyAsync(modifiedPath);
+					try {
+						const clonedFile = await powerPointFile.copyAsync(modifiedPath);
 
-					for (let i = 0; i < headersWithBulletPoints.length; i++) {
-						const header = headersWithBulletPoints[i];
-						const bulletPoints = header.bulletPoints;
+						for (let i = 0; i < headersWithBulletPoints.length; i++) {
+							const header = headersWithBulletPoints[i];
+							const bulletPoints = header.bulletPoints;
 
-						await clonedFile.writeNotesFileAsync(i + 1, bulletPoints);
+							await clonedFile.writeNotesFileAsync(i + 1, bulletPoints);
+						}
+						await clonedFile.saveAsync();
+						new Notice(`Wrote notes to ${modifiedPath}`);
+					} catch (error) {
+						if (error instanceof Error) {
+							if ((error as any).code === "EBUSY") {
+								new Notice('Failed to save PowerPoint file. It is locked, so you probably need to close it.');
+								return;
+							}
+						}
+						new Notice('Failed to save PowerPoint file. Error: ' + error);
 					}
-					await clonedFile.saveAsync();
 				}
 				writeToPowerPoint(headersWithBulletPoints);
 			}
