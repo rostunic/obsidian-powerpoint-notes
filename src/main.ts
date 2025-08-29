@@ -24,10 +24,16 @@ function writeNotesToSlides(checking: boolean, editor: Editor, markdownFileInfo:
 	if (typeof checkResult === 'boolean') return checkResult;
 	if (checkResult instanceof Notice) return undefined;
 
-	writeToPowerPoint(checkResult.headersWithBulletPoints, checkResult.powerPointFilePath);
+	writeToPowerPoint(checkResult);
 }
 
-function getWriteNotesToSlidesData(checking: boolean, editor: Editor, markdownFileInfo: MarkdownFileInfo) {
+type WriteNotesToSlidesData = {
+	headersWithBulletPoints: HeaderBulletPoint[];
+	powerPointFilePath: string;
+};
+
+function getWriteNotesToSlidesData(checking: boolean, editor: Editor, markdownFileInfo: MarkdownFileInfo)
+	: boolean | Notice | WriteNotesToSlidesData {
 	const file = markdownFileInfo.file;
 	if (!file) return false;
 
@@ -61,7 +67,8 @@ type HeaderBulletPoint = {
 	bulletPoints: string[];
 };
 
-async function writeToPowerPoint(headersWithBulletPoints: HeaderBulletPoint[], powerPointFilePath: string) {
+async function writeToPowerPoint(nameAndItems: WriteNotesToSlidesData) {
+	const { headersWithBulletPoints, powerPointFilePath } = nameAndItems;
 	const powerPointFile = await PowerPointFile.loadAsync(powerPointFilePath);
 	const modifiedPath = powerPointFilePath.replace('.pptx', `_modified.pptx`);
 	try {
