@@ -87,14 +87,18 @@ export function generateNotesFile(notes: string[], slideNumber: number): string 
     `;
 }
 
-export function generateNote(note: string): string {
-    // find indent depth by counting leading spaces until - ...
-    // use regex to extract indent and content
-    // match by spaces - content
+function getIndentAndContent(note: string): { indent: number; content: string } {
     const indentAndContent = note.match(/^(\s*)- (.*)$/);
-    if (!indentAndContent) return `<a:p>${note}</a:p>`;
+    if (!indentAndContent) {
+        return { indent: 0, content: note };
+    }
     const indent = Math.floor(indentAndContent[1].length / 4);
     const content = indentAndContent[2];
+    return { indent, content };
+}
+
+export function generateNote(note: string): string {
+    const { indent, content } = getIndentAndContent(note) || { indent: 0, content: note };
     const calculatedMargin = 11450 + (150000 * (indent + 1));
     return `<a:p>
                         <a:pPr marL="${calculatedMargin}" indent="-171450">
@@ -110,7 +114,7 @@ export function generateNote(note: string): string {
 }
 
 export function writeNotesFile(zip: JSZip, slideNumber: number, notes: string[]): Promise<void> {
-  const content = generateNotesFile(notes, slideNumber);
-  zip.file(`ppt/notesSlides/notesSlide${slideNumber}.xml`, content);
-  return Promise.resolve();
+    const content = generateNotesFile(notes, slideNumber);
+    zip.file(`ppt/notesSlides/notesSlide${slideNumber}.xml`, content);
+    return Promise.resolve();
 }

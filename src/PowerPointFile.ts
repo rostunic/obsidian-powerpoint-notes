@@ -18,6 +18,7 @@ export class PowerPointFile {
     return await PowerPointFile.loadAsync(newFilePath);
   }
 
+
   public async getAllNotesFromSlide(slideNumber: number): Promise<string[]> {
     // Directly read the notes XML for the slide
     const notesFile = this.zipFile.file(`ppt/notesSlides/notesSlide${slideNumber}.xml`);
@@ -37,13 +38,11 @@ export class PowerPointFile {
       }
     }
     // For each <a:p>, join all <a:t> children
-    let notes = noteParas.map(p =>
+    const notes = noteParas.map(p =>
       Array.from(p.getElementsByTagName('a:t'))
         .map(t => t.textContent)
         .join('')
     ).filter(line => line.trim() !== '');
-    // Filter out lines that are only numbers
-    notes = notes.filter(line => !/^\d+$/.test(line.trim()));
     return notes;
   }
 

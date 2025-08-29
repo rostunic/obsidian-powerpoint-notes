@@ -27,6 +27,10 @@ describe('loadPowerPointFile', () => {
     const saveFile = await powerPointFile.copyAsync(path.join(__dirname, 'test-output.pptx'));
     await saveFile.writeNotesFileAsync(3, newNotes);
     await saveFile.saveAsync();
+    const savedNotesFromSlide = await saveFile.getAllNotesFromSlide(3);
+    expect(savedNotesFromSlide).toEqual([
+      ' d (edited)'
+    ]);
 
     const powerPointFile2 = await PowerPointFile.loadAsync(path.join(__dirname, 'test-output.pptx'));
     const updatedNotes = await powerPointFile2.getAllNotesFromSlide(3);
