@@ -1,0 +1,812 @@
+2025.08.29 11:06:13 INFO  Started: Metals version 1.6.2 in folders 'C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes' for client Visual Studio Code 1.103.2.
+2025.08.29 11:06:14 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:06:18 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:06:18 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:06:18 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\src\main\scala\Main.scala
+2025.08.29 11:06:19 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:06:19 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 11:06:23 INFO  running 'C:\Users\stunic\Programme\JDK\jdk-17.0.16+8\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.11.4 -jar C:\Users\stunic\AppData\Local\Temp\metals2808339980617997869\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.08.29 11:06:23 ERROR [info] [launcher] getting org.scala-sbt sbt 1.11.4  (this may take some time)...
+2025.08.29 11:06:34 INFO  [info] Updated file C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\build.properties: set sbt.version to 1.11.4
+2025.08.29 11:06:34 INFO  [info] welcome to sbt 1.11.4 (Microsoft Java 17.0.16)
+2025.08.29 11:06:36 INFO  [info] loading settings for project scalajs-project-build-build-build from metals.sbt...
+2025.08.29 11:06:36 INFO  [info] loading project definition from C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\project\project
+2025.08.29 11:06:39 INFO  [info] loading settings for project scalajs-project-build-build from metals.sbt...
+2025.08.29 11:06:39 INFO  [info] loading project definition from C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\project
+2025.08.29 11:06:43 INFO  [success] Generated .bloop\scalajs-project-build-build.json
+2025.08.29 11:06:43 INFO  [success] Total time: 4 s, completed 29.08.2025, 11:06:43
+2025.08.29 11:06:43 INFO  [info] loading settings for project scalajs-project-build from metals.sbt, plugins.sbt...
+2025.08.29 11:06:43 INFO  [info] loading project definition from C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project
+2025.08.29 11:06:45 INFO  [success] Generated .bloop\scalajs-project-build.json
+2025.08.29 11:06:45 INFO  [success] Total time: 2 s, completed 29.08.2025, 11:06:46
+2025.08.29 11:06:47 INFO  [info] loading settings for project scalajs-project from build.sbt...
+2025.08.29 11:06:47 INFO  [info] set current project to obsidian-powerpoint-notes-scalajs (in build file:/C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/)
+2025.08.29 11:06:56 INFO  [success] Generated .bloop\scalajs-project.json
+2025.08.29 11:06:56 INFO  [success] Generated .bloop\scalajs-project-test.json
+2025.08.29 11:06:56 INFO  [success] Total time: 9 s, completed 29.08.2025, 11:06:56
+2025.08.29 11:06:56 INFO  time: ran 'sbt bloopInstall' in 33s
+2025.08.29 11:06:56 INFO  Attempting to connect to the build server...
+2025.08.29 11:06:56 INFO  No running Bloop server found, starting one.
+2025.08.29 11:06:58 INFO  Starting compilation server
+2025.08.29 11:06:59 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:07:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\.metals\bsp.trace.json or C:\Users\stunic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.08.29 11:07:04 INFO  time: Connected to build server in 8.09s
+2025.08.29 11:07:04 INFO  Connected to Build server: Bloop v2.0.13
+2025.08.29 11:07:04 INFO  time: Imported build in 0.34s
+2025.08.29 11:07:04 WARN  3.3.1 is no longer supported in the current Metals versions, using the last known supported version 1.5.1
+2025.08.29 11:07:10 INFO  compiling scalajs-project (2 scala sources)
+2025.08.29 11:07:14 INFO  time: compiled scalajs-project in 3.48s
+2025.08.29 11:07:14 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:07:14 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 11:07:18 INFO  time: indexed workspace in 13s
+2025.08.29 11:07:18 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\plugins.sbt
+2025.08.29 11:07:18 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt
+2025.08.29 11:07:18 INFO  compiling scalajs-project (2 scala sources)
+2025.08.29 11:07:20 INFO  time: compiled scalajs-project in 1.52s
+2025.08.29 11:07:20 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:07:20 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:07:20 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:07:20 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 11:07:20 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:07:20 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 11:07:22 INFO  Generated JavaScript file 'C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\.bloop\scalajs-project\scalajs-project-test-js'
+2025.08.29 11:07:22 WARN  Cannot discover test frameworks, missing node_modules in test project, expected them at C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\node_modules
+2025.08.29 11:07:22 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt
+2025.08.29 11:07:22 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\plugins.sbt
+2025.08.29 11:07:22 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:07:22 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 11:07:23 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:07:22 INFO  Generated JavaScript file 'C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\.bloop\scalajs-project\scalajs-project-test-js'
+2025.08.29 11:07:22 WARN  Cannot discover test frameworks, missing node_modules in test project, expected them at C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\node_modules
+2025.08.29 11:07:23 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+Aug. 29, 2025 11:07:32 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMATION: Unsupported notification method: $/setTrace
+2025.08.29 11:07:46 INFO  compiling scalajs-project (3 scala sources)
+2025.08.29 11:07:47 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:07:47 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 11:07:46 INFO  time: compiled scalajs-project in 0.83s
+2025.08.29 11:07:47 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:07:46 INFO  compiling scalajs-project (3 scala sources)
+2025.08.29 11:07:47 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 11:07:48 INFO  time: compiled scalajs-project in 0.59s
+2025.08.29 11:07:48 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:07:48 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 11:08:33 INFO  compiling scalajs-project (3 scala sources)
+2025.08.29 11:08:33 INFO  time: compiled scalajs-project in 0.58s
+2025.08.29 11:08:40 INFO  compiling scalajs-project (3 scala sources)
+2025.08.29 11:08:40 INFO  time: compiled scalajs-project in 0.45s
+Aug. 29, 2025 11:08:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 74
+Aug. 29, 2025 11:08:59 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMATION: Unsupported notification method: $/setTrace
+Aug. 29, 2025 11:09:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMATION: Unsupported notification method: $/setTrace
+2025.08.29 11:09:36 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:09:36 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\plugins.sbt
+2025.08.29 11:09:37 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:09:37 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/project/plugins.sbt
+2025.08.29 11:09:36 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:09:36 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:09:37 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt
+2025.08.29 11:09:37 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:09:37 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/project/plugins.sbt
+2025.08.29 11:09:41 INFO  running 'C:\Users\stunic\Programme\JDK\jdk-17.0.16+8\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\stunic\AppData\Local\Temp\metals702055432648746803\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.08.29 11:09:41 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:09:42 INFO  [info] welcome to sbt 1.11.4 (Microsoft Java 17.0.16)
+2025.08.29 11:09:42 INFO  [info] loading settings for project scalajs-project-build-build-build from metals.sbt...
+2025.08.29 11:09:43 INFO  [info] loading project definition from C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\project\project
+2025.08.29 11:09:43 INFO  [info] loading settings for project scalajs-project-build-build from metals.sbt...
+2025.08.29 11:09:43 INFO  [info] loading project definition from C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\project
+2025.08.29 11:09:46 INFO  [success] Generated .bloop\scalajs-project-build-build.json
+2025.08.29 11:09:46 INFO  [success] Total time: 2 s, completed 29.08.2025, 11:09:46
+2025.08.29 11:09:46 INFO  [info] loading settings for project scalajs-project-build from metals.sbt, plugins.sbt...
+2025.08.29 11:09:46 INFO  [info] loading project definition from C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project
+2025.08.29 11:09:48 INFO  [success] Generated .bloop\scalajs-project-build.json
+2025.08.29 11:09:48 INFO  [success] Total time: 1 s, completed 29.08.2025, 11:09:48
+2025.08.29 11:09:49 INFO  [info] loading settings for project scalajs-project from build.sbt...
+2025.08.29 11:09:49 INFO  [info] set current project to obsidian-powerpoint-notes-scalajs (in build file:/C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/)
+2025.08.29 11:09:51 INFO  [success] Generated .bloop\scalajs-project.json
+2025.08.29 11:09:51 INFO  [success] Generated .bloop\scalajs-project-test.json
+2025.08.29 11:09:51 INFO  [success] Total time: 2 s, completed 29.08.2025, 11:09:51
+2025.08.29 11:09:51 INFO  time: ran 'sbt bloopInstall' in 10s
+2025.08.29 11:09:51 INFO  Disconnecting from Bloop session...
+2025.08.29 11:09:51 INFO  Shut down connection with build server.
+2025.08.29 11:09:51 INFO  Attempting to connect to the build server...
+2025.08.29 11:09:51 INFO  Found a Bloop server running
+2025.08.29 11:09:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\.metals\bsp.trace.json or C:\Users\stunic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.08.29 11:09:51 INFO  time: Connected to build server in 0.18s
+2025.08.29 11:09:51 INFO  Connected to Build server: Bloop v2.0.13
+2025.08.29 11:09:53 INFO  compiling scalajs-project (3 scala sources)
+2025.08.29 11:09:53 INFO  time: indexed workspace in 1.44s
+2025.08.29 11:09:53 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt
+2025.08.29 11:09:56 INFO  time: compiled scalajs-project in 3.79s
+2025.08.29 11:09:56 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\plugins.sbt
+Aug. 29, 2025 11:10:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNUNG: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "chat-editing-snapshot-text-model:/c%3A/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt?%7B%22sessionId%22%3A%22df5587ad-43df-4c32-a184-adb1acaebed6%22%2C%22requestId%22%3A%22request_683a34da-bdff-468f-86ac-3cb801673306%22%2C%22undoStop%22%3A%22d19944f6-f46c-4e17-911b-79a8e843c7c0%22%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "chat-editing-snapshot-text-model" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:786)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2025.08.29 11:11:25 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:11:25 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:11:25 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt
+2025.08.29 11:11:29 INFO  running 'C:\Users\stunic\Programme\JDK\jdk-17.0.16+8\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\stunic\AppData\Local\Temp\metals11660493297236572705\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.08.29 11:11:30 INFO  [info] welcome to sbt 1.11.4 (Microsoft Java 17.0.16)
+2025.08.29 11:11:30 INFO  [info] loading settings for project scalajs-project-build-build-build from metals.sbt...
+2025.08.29 11:11:31 INFO  [info] loading project definition from C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\project\project
+2025.08.29 11:11:31 INFO  [info] loading settings for project scalajs-project-build-build from metals.sbt...
+2025.08.29 11:11:31 INFO  [info] loading project definition from C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\project
+2025.08.29 11:11:33 INFO  compiling scalajs-project-test (1 scala source)
+2025.08.29 11:11:33 INFO  time: compiled scalajs-project-test in 0.22s
+2025.08.29 11:11:33 INFO  compiling scalajs-project-test (1 scala source)
+2025.08.29 11:11:34 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:11:34 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt
+2025.08.29 11:11:34 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:11:34 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 11:11:34 INFO  time: compiled scalajs-project-test in 1.1s
+2025.08.29 11:11:34 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:11:34 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 11:11:34 INFO  [success] Generated .bloop\scalajs-project-build-build.json
+2025.08.29 11:11:34 INFO  [success] Total time: 2 s, completed 29.08.2025, 11:11:34
+2025.08.29 11:11:34 INFO  [info] loading settings for project scalajs-project-build from metals.sbt, plugins.sbt...
+2025.08.29 11:11:34 INFO  [info] loading project definition from C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project
+2025.08.29 11:11:35 INFO  [success] Generated .bloop\scalajs-project-build.json
+2025.08.29 11:11:35 INFO  [success] Total time: 1 s, completed 29.08.2025, 11:11:36
+2025.08.29 11:11:37 INFO  [info] loading settings for project scalajs-project from build.sbt...
+2025.08.29 11:11:37 INFO  [info] set current project to obsidian-powerpoint-notes-scalajs (in build file:/C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/)
+2025.08.29 11:11:37 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:11:38 INFO  [success] Generated .bloop\scalajs-project.json
+2025.08.29 11:11:38 INFO  [success] Generated .bloop\scalajs-project-test.json
+2025.08.29 11:11:38 INFO  [success] Total time: 1 s, completed 29.08.2025, 11:11:38
+2025.08.29 11:11:38 INFO  time: ran 'sbt bloopInstall' in 9.46s
+2025.08.29 11:11:38 INFO  Disconnecting from Bloop session...
+2025.08.29 11:11:38 INFO  Shut down connection with build server.
+2025.08.29 11:11:38 INFO  Attempting to connect to the build server...
+2025.08.29 11:11:38 INFO  Found a Bloop server running
+2025.08.29 11:11:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\.metals\bsp.trace.json or C:\Users\stunic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.08.29 11:11:38 INFO  time: Connected to build server in 0.13s
+2025.08.29 11:11:38 INFO  Connected to Build server: Bloop v2.0.13
+2025.08.29 11:11:41 INFO  time: indexed workspace in 2.68s
+2025.08.29 11:11:41 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt
+2025.08.29 11:11:41 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\plugins.sbt
+2025.08.29 11:11:41 INFO  compiling scalajs-project-test (1 scala source)
+2025.08.29 11:11:43 INFO  time: compiled scalajs-project-test in 1.88s
+2025.08.29 11:13:17 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 11:13:17 INFO  time: compiled scalajs-project in 68ms
+2025.08.29 11:13:17 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 11:13:17 INFO  time: compiled scalajs-project in 0.35s
+2025.08.29 11:13:45 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 11:13:45 INFO  time: compiled scalajs-project in 0.59s
+2025.08.29 11:13:57 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 11:13:57 INFO  time: compiled scalajs-project in 0.51s
+2025.08.29 11:14:05 INFO  compiling scalajs-project-test (1 scala source)
+2025.08.29 11:14:05 INFO  time: compiled scalajs-project-test in 73ms
+2025.08.29 11:14:05 INFO  compiling scalajs-project-test (1 scala source)
+2025.08.29 11:14:05 INFO  time: compiled scalajs-project-test in 0.14s
+2025.08.29 11:14:20 INFO  compiling scalajs-project-test (1 scala source)
+2025.08.29 11:14:20 INFO  time: compiled scalajs-project-test in 0.34s
+2025.08.29 11:15:29 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:15:29 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt
+2025.08.29 11:15:29 INFO  skipping build import with status 'Installed'
+2025.08.29 11:15:29 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:15:29 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\plugins.sbt
+2025.08.29 11:15:29 INFO  skipping build import with status 'Installed'
+2025.08.29 11:15:55 INFO  compiling scalajs-project-test (1 scala source)
+2025.08.29 11:15:55 INFO  time: compiled scalajs-project-test in 0.47s
+2025.08.29 11:16:26 INFO  compiling scalajs-project-test (1 scala source)
+2025.08.29 11:16:26 INFO  time: compiled scalajs-project-test in 0.39s
+2025.08.29 11:17:08 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 11:17:08 INFO  time: compiled scalajs-project in 0.38s
+2025.08.29 11:17:16 INFO  compiling scalajs-project-test (1 scala source)
+2025.08.29 11:17:16 INFO  time: compiled scalajs-project-test in 0.37s
+2025.08.29 11:17:57 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 11:17:57 INFO  time: compiled scalajs-project in 0.38s
+2025.08.29 11:18:03 INFO  compiling scalajs-project-test (1 scala source)
+2025.08.29 11:18:03 WARN  Could not load snapshot text for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\src\test\scala\PowerPointFileSpec.scala
+2025.08.29 11:18:03 INFO  time: compiled scalajs-project-test in 0.32s
+2025.08.29 11:18:48 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 11:18:48 INFO  time: compiled scalajs-project in 0.49s
+2025.08.29 11:18:59 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 11:18:59 INFO  time: compiled scalajs-project in 0.32s
+2025.08.29 11:18:59 INFO  time: compiled scalajs-project-test in 6ms
+2025.08.29 11:19:49 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 11:19:49 INFO  time: compiled scalajs-project in 0.33s
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.11/scala-reflect-2.13.11.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.11/scala-reflect-2.13.11.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.11/scala-library-2.13.11.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.11/scala-library-2.13.11.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.12.0/metaconfig-core_2.13-0.12.0.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.12.0/metaconfig-typesafe-config_2.13-0.12.0.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parallel-collections_2.13/1.0.4/scala-parallel-collections_2.13-1.0.4.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parallel-collections_2.13/1.0.4/scala-parallel-collections_2.13-1.0.4.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.12.0/metaconfig-core_2.13-0.12.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.12.0/metaconfig-typesafe-config_2.13-0.12.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/org/typelevel/paiges-core_2.13/0.4.3/paiges-core_2.13-0.4.3.pom
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.13/0.12.0/metaconfig-pprint_2.13-0.12.0.pom
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.13/0.12.0/metaconfig-pprint_2.13-0.12.0.pom
+Downloaded https://repo1.maven.org/maven2/org/typelevel/paiges-core_2.13/0.4.3/paiges-core_2.13-0.4.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.13/0.4.0/fansi_2.13-0.4.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.13/0.4.0/fansi_2.13-0.4.0.pom
+2025.08.29 11:20:05 INFO  compiling scalajs-project-test (1 scala source)
+2025.08.29 11:20:05 INFO  time: compiled scalajs-project-test in 0.28s
+2025.08.29 11:21:06 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 11:21:06 INFO  time: compiled scalajs-project in 0.71s
+Aug. 29, 2025 11:21:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNUNG: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "chat-editing-snapshot-text-model:/c%3A/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/src/main/scala/PowerPointFile.scala?%7B%22sessionId%22%3A%22df5587ad-43df-4c32-a184-adb1acaebed6%22%2C%22requestId%22%3A%22request_4fe7ffe4-21c4-4f6f-84af-a9f76886b523%22%2C%22undoStop%22%3A%22e45738f5-7dd3-4af0-9a8b-fdccdf0332d2%22%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "chat-editing-snapshot-text-model" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:786)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Aug. 29, 2025 11:21:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 507
+2025.08.29 11:21:51 INFO  compiling scalajs-project-test (1 scala source)
+2025.08.29 11:21:51 INFO  time: compiled scalajs-project-test in 0.38s
+2025.08.29 11:22:05 INFO  compiling scalajs-project-test (1 scala source)
+2025.08.29 11:22:05 INFO  time: compiled scalajs-project-test in 0.28s
+2025.08.29 11:22:37 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 11:22:37 INFO  time: compiled scalajs-project in 0.28s
+2025.08.29 11:23:13 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 11:23:13 INFO  time: compiled scalajs-project in 0.32s
+2025.08.29 11:24:54 INFO  compiling scalajs-project-test (1 scala source)
+2025.08.29 11:24:54 INFO  time: compiled scalajs-project-test in 0.28s
+2025.08.29 11:25:10 INFO  compiling scalajs-project-test (1 scala source)
+2025.08.29 11:25:10 WARN  Could not load snapshot text for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\src\test\scala\PowerPointFileSpec.scala
+2025.08.29 11:25:10 INFO  time: compiled scalajs-project-test in 0.25s
+2025.08.29 11:25:26 INFO  compiling scalajs-project-test (1 scala source)
+2025.08.29 11:25:26 INFO  time: compiled scalajs-project-test in 0.23s
+2025.08.29 11:37:15 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:37:15 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:37:15 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt
+2025.08.29 11:37:18 INFO  running 'C:\Users\stunic\Programme\JDK\jdk-17.0.16+8\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\stunic\AppData\Local\Temp\metals16131006837414002315\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.08.29 11:37:19 INFO  [info] welcome to sbt 1.11.4 (Microsoft Java 17.0.16)
+2025.08.29 11:37:19 INFO  [info] loading settings for project scalajs-project-build-build-build from metals.sbt...
+2025.08.29 11:37:20 INFO  [info] loading project definition from C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\project\project
+2025.08.29 11:37:20 INFO  [info] loading settings for project scalajs-project-build-build from metals.sbt...
+2025.08.29 11:37:20 INFO  [info] loading project definition from C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\project
+2025.08.29 11:37:21 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:37:21 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt
+2025.08.29 11:37:21 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:37:21 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 11:37:21 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:37:22 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 11:37:22 INFO  time: compiled scalajs-project in 65ms
+2025.08.29 11:37:22 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:37:22 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 11:37:22 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 11:37:22 INFO  time: compiled scalajs-project in 0.38s
+2025.08.29 11:37:22 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:37:22 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 11:37:23 INFO  [success] Generated .bloop\scalajs-project-build-build.json
+2025.08.29 11:37:23 INFO  [success] Total time: 2 s, completed 29.08.2025, 11:37:23
+2025.08.29 11:37:23 INFO  [info] loading settings for project scalajs-project-build from metals.sbt, plugins.sbt...
+2025.08.29 11:37:23 INFO  [info] loading project definition from C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project
+2025.08.29 11:37:24 INFO  [success] Generated .bloop\scalajs-project-build.json
+2025.08.29 11:37:24 INFO  [success] Total time: 1 s, completed 29.08.2025, 11:37:24
+2025.08.29 11:37:26 INFO  [info] loading settings for project scalajs-project from build.sbt...
+2025.08.29 11:37:26 INFO  [info] set current project to obsidian-powerpoint-notes-scalajs (in build file:/C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/)
+2025.08.29 11:37:31 INFO  [success] Generated .bloop\scalajs-project.json
+2025.08.29 11:37:31 INFO  [success] Generated .bloop\scalajs-project-test.json
+2025.08.29 11:37:31 INFO  [success] Total time: 4 s, completed 29.08.2025, 11:37:31
+2025.08.29 11:37:31 INFO  time: ran 'sbt bloopInstall' in 13s
+2025.08.29 11:37:31 INFO  Disconnecting from Bloop session...
+2025.08.29 11:37:31 INFO  Shut down connection with build server.
+2025.08.29 11:37:31 INFO  Attempting to connect to the build server...
+2025.08.29 11:37:31 INFO  Found a Bloop server running
+2025.08.29 11:37:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\.metals\bsp.trace.json or C:\Users\stunic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.08.29 11:37:31 INFO  time: Connected to build server in 0.18s
+2025.08.29 11:37:31 INFO  Connected to Build server: Bloop v2.0.13
+2025.08.29 11:37:33 INFO  time: indexed workspace in 1.44s
+2025.08.29 11:37:33 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt
+2025.08.29 11:37:33 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\plugins.sbt
+2025.08.29 11:37:33 INFO  Generated JavaScript file 'C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\.bloop\scalajs-project\scalajs-project-test-js'
+2025.08.29 11:37:33 WARN  Cannot discover test frameworks, missing node_modules in test project, expected them at C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\node_modules
+2025.08.29 11:37:33 INFO  compiling scalajs-project (5 scala sources)
+2025.08.29 11:37:35 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:37:35 INFO  time: compiled scalajs-project in 1.21s
+2025.08.29 11:37:35 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:37:35 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 11:37:35 INFO  Generated JavaScript file 'C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\.bloop\scalajs-project\scalajs-project-test-js'
+2025.08.29 11:37:35 WARN  Cannot discover test frameworks, missing node_modules in test project, expected them at C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\node_modules
+2025.08.29 11:38:00 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:38:00 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:38:00 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:38:44 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:39:12 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt
+2025.08.29 11:39:12 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:39:12 INFO  skipping build import with status 'Installed'
+2025.08.29 11:39:12 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 11:39:12 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:39:12 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 11:39:39 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:39:42 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:40:06 INFO  compiling scalajs-project (5 scala sources)
+2025.08.29 11:40:06 INFO  time: compiled scalajs-project in 0.57s
+2025.08.29 11:40:07 INFO  Generated JavaScript file 'C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\.bloop\scalajs-project\scalajs-project-test-js'
+2025.08.29 11:40:07 WARN  Cannot discover test frameworks, missing node_modules in test project, expected them at C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\node_modules
+2025.08.29 11:43:34 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:43:34 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:43:34 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt
+2025.08.29 11:43:37 INFO  running 'C:\Users\stunic\Programme\JDK\jdk-17.0.16+8\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\stunic\AppData\Local\Temp\metals1718180620128732353\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.08.29 11:43:38 INFO  [info] welcome to sbt 1.11.4 (Microsoft Java 17.0.16)
+2025.08.29 11:43:38 INFO  [info] loading settings for project scalajs-project-build-build-build from metals.sbt...
+2025.08.29 11:43:39 INFO  [info] loading project definition from C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\project\project
+2025.08.29 11:43:39 INFO  [info] loading settings for project scalajs-project-build-build from metals.sbt...
+2025.08.29 11:43:39 INFO  [info] loading project definition from C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\project
+2025.08.29 11:43:42 INFO  [success] Generated .bloop\scalajs-project-build-build.json
+2025.08.29 11:43:42 INFO  [success] Total time: 2 s, completed 29.08.2025, 11:43:42
+2025.08.29 11:43:42 INFO  [info] loading settings for project scalajs-project-build from metals.sbt, plugins.sbt...
+2025.08.29 11:43:42 INFO  [info] loading project definition from C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project
+2025.08.29 11:43:43 INFO  [success] Generated .bloop\scalajs-project-build.json
+2025.08.29 11:43:43 INFO  [success] Total time: 1 s, completed 29.08.2025, 11:43:43
+2025.08.29 11:43:45 INFO  [info] loading settings for project scalajs-project from build.sbt...
+2025.08.29 11:43:45 INFO  [info] set current project to obsidian-powerpoint-notes-scalajs (in build file:/C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/)
+2025.08.29 11:43:49 INFO  [success] Generated .bloop\scalajs-project-test.json
+2025.08.29 11:43:49 INFO  [success] Generated .bloop\scalajs-project.json
+2025.08.29 11:43:49 INFO  [success] Total time: 4 s, completed 29.08.2025, 11:43:49
+2025.08.29 11:43:49 INFO  time: ran 'sbt bloopInstall' in 11s
+2025.08.29 11:43:49 INFO  Disconnecting from Bloop session...
+2025.08.29 11:43:49 INFO  Shut down connection with build server.
+2025.08.29 11:43:49 INFO  Attempting to connect to the build server...
+2025.08.29 11:43:49 INFO  Found a Bloop server running
+2025.08.29 11:43:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\.metals\bsp.trace.json or C:\Users\stunic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.08.29 11:43:49 INFO  time: Connected to build server in 0.15s
+2025.08.29 11:43:49 INFO  Connected to Build server: Bloop v2.0.13
+2025.08.29 11:43:50 INFO  time: indexed workspace in 1.01s
+2025.08.29 11:43:50 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\plugins.sbt
+2025.08.29 11:43:50 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt
+2025.08.29 11:43:50 INFO  compiling scalajs-project (5 scala sources)
+2025.08.29 11:43:50 INFO  Generated JavaScript file 'C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\.bloop\scalajs-project\scalajs-project-test-js'
+2025.08.29 11:43:50 WARN  Cannot discover test frameworks, missing node_modules in test project, expected them at C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\node_modules
+2025.08.29 11:43:53 INFO  compiling scalajs-project-test (2 scala sources)
+2025.08.29 11:43:53 INFO  time: compiled scalajs-project in 2.76s
+2025.08.29 11:43:54 INFO  time: compiled scalajs-project-test in 1.13s
+2025.08.29 11:43:54 INFO  Generated JavaScript file 'C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\.bloop\scalajs-project\scalajs-project-test-js'
+2025.08.29 11:43:54 WARN  Cannot discover test frameworks, missing node_modules in test project, expected them at C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\node_modules
+2025.08.29 11:53:50 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 11:53:50 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt
+2025.08.29 11:53:50 INFO  skipping build import with status 'Installed'
+2025.08.29 12:15:39 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 12:15:39 INFO  time: compiled scalajs-project in 0.69s
+2025.08.29 12:15:39 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 12:15:40 INFO  time: compiled scalajs-project in 0.58s
+2025.08.29 12:16:14 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 12:16:14 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt
+2025.08.29 12:16:14 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 12:16:14 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 12:16:14 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 12:16:16 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 12:16:27 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 12:16:53 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 12:16:53 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt
+2025.08.29 12:16:53 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 12:16:53 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 12:16:53 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 12:16:53 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 12:18:29 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 12:18:29 INFO  time: compiled scalajs-project in 0.45s
+2025.08.29 12:18:30 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 12:18:30 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 12:19:29 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 12:19:29 INFO  time: compiled scalajs-project in 0.29s
+2025.08.29 12:19:30 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 12:19:30 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 12:20:16 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 12:20:16 INFO  time: compiled scalajs-project in 0.29s
+2025.08.29 12:20:16 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 12:20:16 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 12:22:02 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 12:22:02 INFO  time: compiled scalajs-project in 0.26s
+2025.08.29 12:22:02 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 12:22:02 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 12:22:17 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 12:22:17 INFO  time: compiled scalajs-project in 0.24s
+2025.08.29 12:22:17 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 12:22:17 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 12:22:43 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 12:22:43 INFO  time: compiled scalajs-project in 0.48s
+2025.08.29 12:22:44 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 12:22:44 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 12:46:52 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 12:46:52 INFO  time: compiled scalajs-project in 0.48s
+2025.08.29 12:46:53 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 12:46:53 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+Aug. 29, 2025 12:53:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNUNG: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "chat-editing-snapshot-text-model:/c%3A/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/src/main/scala/obsidian/Main.scala?%7B%22sessionId%22%3A%22df5587ad-43df-4c32-a184-adb1acaebed6%22%2C%22requestId%22%3A%22request_b6829ecb-d783-4e36-970b-e23ce136efa3%22%2C%22undoStop%22%3A%22d19944f6-f46c-4e17-911b-79a8e843c7c0%22%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "chat-editing-snapshot-text-model" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:786)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2025.08.29 12:56:48 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 12:56:48 INFO  time: compiled scalajs-project in 0.25s
+2025.08.29 12:56:57 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 12:56:57 INFO  time: compiled scalajs-project in 0.32s
+2025.08.29 12:57:09 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 12:57:09 INFO  time: compiled scalajs-project in 0.48s
+2025.08.29 12:57:18 INFO  compiling scalajs-project (2 scala sources)
+2025.08.29 12:57:18 INFO  time: compiled scalajs-project in 0.17s
+2025.08.29 12:57:52 INFO  compiling scalajs-project (2 scala sources)
+2025.08.29 12:57:52 INFO  time: compiled scalajs-project in 0.26s
+2025.08.29 12:58:17 INFO  compiling scalajs-project (2 scala sources)
+2025.08.29 12:58:17 INFO  time: compiled scalajs-project in 0.19s
+2025.08.29 13:00:38 INFO  compiling scalajs-project (2 scala sources)
+2025.08.29 13:00:38 INFO  time: compiled scalajs-project in 0.31s
+2025.08.29 13:00:47 INFO  compiling scalajs-project (2 scala sources)
+2025.08.29 13:00:47 INFO  time: compiled scalajs-project in 0.42s
+2025.08.29 13:01:38 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:01:38 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:01:38 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt
+2025.08.29 13:01:40 INFO  running 'C:\Users\stunic\Programme\JDK\jdk-17.0.16+8\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\stunic\AppData\Local\Temp\metals2099570440187315420\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.08.29 13:01:41 INFO  [info] welcome to sbt 1.11.4 (Microsoft Java 17.0.16)
+2025.08.29 13:01:41 INFO  [info] loading settings for project scalajs-project-build-build-build from metals.sbt...
+2025.08.29 13:01:42 INFO  [info] loading project definition from C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\project\project
+2025.08.29 13:01:42 INFO  [info] loading settings for project scalajs-project-build-build from metals.sbt...
+2025.08.29 13:01:42 INFO  [info] loading project definition from C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\project
+2025.08.29 13:01:45 INFO  [success] Generated .bloop\scalajs-project-build-build.json
+2025.08.29 13:01:45 INFO  [success] Total time: 2 s, completed 29.08.2025, 13:01:45
+2025.08.29 13:01:45 INFO  [info] loading settings for project scalajs-project-build from metals.sbt, plugins.sbt...
+2025.08.29 13:01:45 INFO  [info] loading project definition from C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project
+2025.08.29 13:01:46 INFO  [success] Generated .bloop\scalajs-project-build.json
+2025.08.29 13:01:46 INFO  [success] Total time: 1 s, completed 29.08.2025, 13:01:46
+2025.08.29 13:01:48 INFO  [info] loading settings for project scalajs-project from build.sbt...
+2025.08.29 13:01:48 INFO  [info] set current project to obsidian-powerpoint-notes-scalajs (in build file:/C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/)
+2025.08.29 13:01:48 INFO  [success] Generated .bloop\scalajs-project.json
+2025.08.29 13:01:48 INFO  [success] Generated .bloop\scalajs-project-test.json
+2025.08.29 13:01:48 INFO  [success] Total time: 0 s, completed 29.08.2025, 13:01:48
+2025.08.29 13:01:48 INFO  time: ran 'sbt bloopInstall' in 8.14s
+2025.08.29 13:01:48 INFO  Disconnecting from Bloop session...
+2025.08.29 13:01:48 INFO  Shut down connection with build server.
+2025.08.29 13:01:48 INFO  Attempting to connect to the build server...
+2025.08.29 13:01:48 INFO  Found a Bloop server running
+2025.08.29 13:01:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\.metals\bsp.trace.json or C:\Users\stunic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.08.29 13:01:48 INFO  time: Connected to build server in 0.12s
+2025.08.29 13:01:48 INFO  Connected to Build server: Bloop v2.0.13
+2025.08.29 13:01:48 INFO  time: indexed workspace in 0.8s
+2025.08.29 13:01:49 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt
+2025.08.29 13:01:49 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\plugins.sbt
+2025.08.29 13:01:50 INFO  Generated JavaScript file 'C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\.bloop\scalajs-project\scalajs-project-test-js'
+2025.08.29 13:01:50 WARN  Cannot discover test frameworks, missing node_modules in test project, expected them at C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\node_modules
+2025.08.29 13:01:50 INFO  Created report: Optional.empty
+2025.08.29 13:01:50 INFO  Invalid top level export for name 'default' in class obsidian.Main$ when emitting a Script (NoModule... (full report at: "C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\.metals\.reports\bloop\2025-08-29\r_Invalid top level ex..._13-01-51-098.md")
+2025.08.29 13:01:50 INFO  Created report: Optional.empty
+2025.08.29 13:01:50 INFO  exported to JavaScript with @JSExport (full report at: "C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\.metals\.reports\bloop\2025-08-29\r_exported to JavaScri..._13-01-51-114.md")
+2025.08.29 13:01:50 INFO  Created report: Optional.empty
+2025.08.29 13:01:50 INFO  JavaScript linking failed with 'There were linking errors' (full report at: "C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\.metals\.reports\bloop\2025-08-29\r_JavaScript linking f..._13-01-51-117.md")
+2025.08.29 13:06:56 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 13:06:56 INFO  time: compiled scalajs-project in 0.16s
+2025.08.29 13:06:56 WARN  Could not load snapshot text for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\src\main\scala\obsidian\Main.scala
+2025.08.29 13:07:44 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 13:07:45 WARN  Could not load snapshot text for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\src\main\scala\obsidian\Main.scala
+2025.08.29 13:07:44 INFO  time: compiled scalajs-project in 0.21s
+2025.08.29 13:07:45 WARN  Could not load snapshot text for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\src\main\scala\obsidian\Main.scala
+2025.08.29 13:08:06 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 13:08:06 INFO  time: compiled scalajs-project in 0.14s
+2025.08.29 13:08:06 WARN  Could not load snapshot text for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\src\main\scala\obsidian\Main.scala
+2025.08.29 13:08:46 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:08:46 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt
+2025.08.29 13:08:46 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:08:46 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 13:08:46 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:08:46 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:08:46 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 13:08:51 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt
+2025.08.29 13:08:51 INFO  skipping build import with status 'Installed'
+2025.08.29 13:08:57 WARN  Could not load snapshot text for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\src\main\scala\obsidian\Main.scala
+2025.08.29 13:09:29 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 13:09:29 INFO  time: compiled scalajs-project in 0.17s
+2025.08.29 13:09:29 WARN  Could not load snapshot text for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\src\main\scala\obsidian\Main.scala
+2025.08.29 13:09:30 WARN  Could not load snapshot text for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\src\main\scala\obsidian\Main.scala
+2025.08.29 13:11:45 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 13:11:46 WARN  Could not load snapshot text for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\src\main\scala\obsidian\Main.scala
+2025.08.29 13:11:45 INFO  time: compiled scalajs-project in 0.3s
+2025.08.29 13:11:46 WARN  Could not load snapshot text for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\src\main\scala\obsidian\Main.scala
+2025.08.29 13:12:44 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 13:12:44 INFO  time: compiled scalajs-project in 0.17s
+2025.08.29 13:12:44 WARN  Could not load snapshot text for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\src\main\scala\obsidian\Main.scala
+2025.08.29 13:12:45 WARN  Could not load snapshot text for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\src\main\scala\obsidian\Main.scala
+Aug. 29, 2025 1:13:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 1607
+2025.08.29 13:13:48 WARN  Could not load snapshot text for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\src\main\scala\obsidian\Main.scala
+2025.08.29 13:13:48 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 13:13:48 INFO  time: compiled scalajs-project in 0.14s
+2025.08.29 13:13:48 WARN  Could not load snapshot text for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\src\main\scala\obsidian\Main.scala
+2025.08.29 13:14:35 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 13:14:35 WARN  Could not load snapshot text for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\src\main\scala\obsidian\Main.scala
+2025.08.29 13:14:35 INFO  time: compiled scalajs-project in 0.18s
+2025.08.29 13:14:36 WARN  Could not load snapshot text for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\src\main\scala\obsidian\Main.scala
+2025.08.29 13:16:32 WARN  Could not load snapshot text for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\src\main\scala\obsidian\Main.scala
+2025.08.29 13:17:26 INFO  compiling scalajs-project (1 scala source)
+2025.08.29 13:17:26 INFO  time: compiled scalajs-project in 0.16s
+Aug. 29, 2025 1:17:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNUNG: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "chat-editing-snapshot-text-model:/c%3A/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/src/main/scala/obsidian/Main.scala?%7B%22sessionId%22%3A%22df5587ad-43df-4c32-a184-adb1acaebed6%22%2C%22requestId%22%3A%22request_ea2e89b3-61de-4e5b-9010-862254ad4272%22%2C%22undoStop%22%3A%22d19944f6-f46c-4e17-911b-79a8e843c7c0%22%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "chat-editing-snapshot-text-model" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:786)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Aug. 29, 2025 1:17:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNUNG: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "chat-editing-snapshot-text-model:/c%3A/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/src/main/scala/obsidian/Main.scala?%7B%22sessionId%22%3A%22df5587ad-43df-4c32-a184-adb1acaebed6%22%2C%22requestId%22%3A%22request_ea2e89b3-61de-4e5b-9010-862254ad4272%22%2C%22undoStop%22%3A%22c79cfaca-1b46-4a57-91e3-a5dff3e1b8bf%22%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "chat-editing-snapshot-text-model" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:786)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Aug. 29, 2025 1:18:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNUNG: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "chat-editing-snapshot-text-model:/c%3A/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/src/main/scala/obsidian/Main.scala?%7B%22sessionId%22%3A%22df5587ad-43df-4c32-a184-adb1acaebed6%22%2C%22requestId%22%3A%22request_ea2e89b3-61de-4e5b-9010-862254ad4272%22%2C%22undoStop%22%3A%22d19944f6-f46c-4e17-911b-79a8e843c7c0%22%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "chat-editing-snapshot-text-model" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:786)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2025.08.29 13:21:46 INFO  compiling scalajs-project (2 scala sources)
+2025.08.29 13:21:46 INFO  time: compiled scalajs-project in 0.17s
+2025.08.29 13:23:20 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:23:20 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:23:20 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt
+Aug. 29, 2025 1:23:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNUNG: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "chat-editing-snapshot-text-model:/c%3A/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt?%7B%22sessionId%22%3A%22df5587ad-43df-4c32-a184-adb1acaebed6%22%2C%22requestId%22%3A%22request_697e33b2-e84e-4ba1-af36-671db3071a34%22%2C%22undoStop%22%3A%22d19944f6-f46c-4e17-911b-79a8e843c7c0%22%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "chat-editing-snapshot-text-model" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:786)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2025.08.29 13:23:36 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt
+2025.08.29 13:24:08 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:24:08 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt
+2025.08.29 13:24:08 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:24:08 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 13:24:08 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:24:08 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:24:08 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:24:08 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:24:08 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:24:08 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:24:09 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:24:09 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 13:24:08 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:24:08 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:24:08 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:24:09 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:24:09 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:24:09 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:24:09 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 13:24:09 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:24:09 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:24:09 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt
+2025.08.29 13:24:10 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:24:10 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt
+2025.08.29 13:24:10 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 13:24:09 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:24:09 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 13:25:35 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:25:35 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:25:35 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\plugins.sbt
+2025.08.29 13:25:35 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:25:35 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 13:26:26 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:26:26 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\plugins.sbt
+2025.08.29 13:26:26 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:26:26 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 13:26:36 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:26:36 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:26:36 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\plugins.sbt
+2025.08.29 13:26:36 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:26:36 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 13:34:32 WARN  no build target for: C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\plugins.sbt
+2025.08.29 13:34:32 INFO  no build target found for C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:34:32 WARN  Could not find semantic tokens for: file:///C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugins/obsidian-powerpoint-notes/scalajs-project/build.sbt
+2025.08.29 13:41:37 INFO  no build target found for c:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:41:37 INFO  no build target found for c:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\scalajs-project\project\plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.29 13:41:41 INFO  Created report: Optional.empty
+2025.08.29 13:41:41 INFO  No project associated with Uri(file:/C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugin... (full report at: "C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\.metals\.reports\bloop\2025-08-29\r_No project associate..._13-41-41-075.md")
+2025.08.29 13:41:41 INFO  No project associated with Uri(file:/C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugin... (full report at: "C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\.metals\.reports\bloop\2025-08-29\r_No project associate..._13-41-41-075.md")
+2025.08.29 13:41:41 INFO  No project associated with Uri(file:/C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugin... (full report at: "C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\.metals\.reports\bloop\2025-08-29\r_No project associate..._13-41-41-075.md")
+2025.08.29 13:41:41 INFO  No project associated with Uri(file:/C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugin... (full report at: "C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\.metals\.reports\bloop\2025-08-29\r_No project associate..._13-41-41-075.md")
+2025.08.29 13:41:41 INFO  No project associated with Uri(file:/C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugin... (full report at: "C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\.metals\.reports\bloop\2025-08-29\r_No project associate..._13-41-41-075.md")
+2025.08.29 13:41:41 INFO  No project associated with Uri(file:/C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugin... (full report at: "C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\.metals\.reports\bloop\2025-08-29\r_No project associate..._13-41-41-075.md")
+2025.08.29 13:41:41 INFO  Created report: Optional.empty
+2025.08.29 13:41:41 INFO  No project associated with Uri(file:/C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugin... (full report at: "C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\.metals\.reports\bloop\2025-08-29\r_No project associate..._13-41-41-125.md")
+2025.08.29 13:41:41 INFO  No project associated with Uri(file:/C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugin... (full report at: "C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\.metals\.reports\bloop\2025-08-29\r_No project associate..._13-41-41-125.md")
+2025.08.29 13:41:41 INFO  No project associated with Uri(file:/C:/Users/stunic/Documents/DoktorarbeitObsidian/.obsidian/plugin... (full report at: "C:\Users\stunic\Documents\DoktorarbeitObsidian\.obsidian\plugins\obsidian-powerpoint-notes\.metals\.reports\bloop\2025-08-29\r_No project associate..._13-41-41-125.md")
