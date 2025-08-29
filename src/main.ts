@@ -1,4 +1,4 @@
-import { App, Editor, EditorPosition, Loc, MarkdownFileInfo, Plugin, TFile } from 'obsidian';
+import { App, CachedMetadata, Editor, EditorPosition, Loc, MarkdownFileInfo, Plugin, TFile } from 'obsidian';
 import { PowerPointFile } from './PowerPointFile';
 
 
@@ -13,14 +13,18 @@ export default class AliasPickerPlugin extends Plugin {
 				const file = markdownFileInfo.file;
 				if (!file)
 					return false;
-				const headersWithBulletPoints = getHeadersWithBulletPointsInFile(file, this.app, editor);
+
+				const fileCache = this.app.metadataCache.getFileCache(file);
+				if (!fileCache)
+					return false;
+
+				const headersWithBulletPoints = getHeadersWithBulletPointsInFile(fileCache, editor);
 				console.log(headersWithBulletPoints);
 				if (headersWithBulletPoints === undefined)
 					return false;
 				if (checking)
-					return headersWithBulletPoints !== undefined;
+					return true;
 
-				const fileCache = this.app.metadataCache.getFileCache(file);
 				const frontmatter = fileCache?.frontmatter;
 				if (!frontmatter)
 					return;
@@ -65,9 +69,7 @@ type HeaderBulletPoints = {
 	bulletPoints: string[];
 }[];
 
-function getHeadersWithBulletPointsInFile(file: TFile, app: App, editor: Editor): HeaderBulletPoints | undefined {
-	const fileCache = app.metadataCache.getFileCache(file);
-	if (!fileCache) return undefined;
+function getHeadersWithBulletPointsInFile(fileCache: CachedMetadata, editor: Editor): HeaderBulletPoints | undefined {
 	const headers = fileCache.headings;
 	if (!headers || headers.length === 0) return [];
 	const allListItems = fileCache.listItems;
