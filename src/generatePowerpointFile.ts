@@ -88,14 +88,22 @@ export function generateNotesFile(notes: string[], slideNumber: number): string 
 }
 
 export function generateNote(note: string): string {
+    // find indent depth by counting leading spaces until - ...
+    // use regex to extract indent and content
+    // match by spaces - content
+    const indentAndContent = note.match(/^(\s*)- (.*)$/);
+    if (!indentAndContent) return `<a:p>${note}</a:p>`;
+    const indent = Math.floor(indentAndContent[1].length / 4);
+    const content = indentAndContent[2];
+    const calculatedMargin = 11450 + (150000 * (indent + 1));
     return `<a:p>
-                        <a:pPr marL="171450" indent="-171450">
+                        <a:pPr marL="${calculatedMargin}" indent="-171450">
                             <a:buFontTx />
                             <a:buChar char="-" />
                         </a:pPr>
                         <a:r>
                             <a:rPr lang="de-DE" dirty="0" />
-                            <a:t>${note}</a:t>
+                            <a:t>${content}</a:t>
                         </a:r>
                         <a:endParaRPr lang="de-DE" dirty="0" />
                     </a:p>`;
