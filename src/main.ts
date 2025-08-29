@@ -1,4 +1,4 @@
-import { App, CachedMetadata, Editor, EditorPosition, Loc, MarkdownFileInfo, Notice, Plugin, TFile } from 'obsidian';
+import { CachedMetadata, Editor, EditorPosition, Loc, MarkdownFileInfo, Notice, Plugin } from 'obsidian';
 import { PowerPointFile } from './PowerPointFile';
 
 
@@ -27,12 +27,11 @@ export default class AliasPickerPlugin extends Plugin {
 				const frontmatter = fileCache.frontmatter;
 				const powerPointFilePath = frontmatter?.['powerPoint-file'];
 				if (!powerPointFilePath || typeof powerPointFilePath !== 'string') {
-					const notice = new Notice('You have to specify the path for your PowerPoint file in the frontmatter with `powerPoint-file: <path>.pptx`');
+					new Notice('You have to specify the path for your PowerPoint file in the frontmatter with `powerPoint-file: <path>.pptx`');
 					return;
 				}
 				if (!powerPointFilePath.endsWith('.pptx')) {
-					const notice = new Notice('The specified PowerPoint file path must end with `.pptx`');
-					notice.setMessage('The specified PowerPoint file path must end with `.pptx`');
+					new Notice('The specified PowerPoint file path must end with `.pptx`');
 					return;
 				}
 				async function writeToPowerPoint(headersWithBulletPoints: HeaderBulletPoints) {
