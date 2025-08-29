@@ -19,7 +19,6 @@ export default class AliasPickerPlugin extends Plugin {
 					return false;
 
 				const headersWithBulletPoints = getHeadersWithBulletPointsInFile(fileCache, editor);
-				console.log(headersWithBulletPoints);
 				if (headersWithBulletPoints === undefined)
 					return false;
 				if (checking)
@@ -33,8 +32,6 @@ export default class AliasPickerPlugin extends Plugin {
 					return;
 				async function writeToPowerPoint(headersWithBulletPoints: HeaderBulletPoints) {
 					const powerPointFile = await PowerPointFile.loadAsync(powerPointFilePath);
-					const notes = await powerPointFile.getAllNotesFromSlide(1);
-					console.log(notes);
 					const modifiedPath = powerPointFilePath.replace('.pptx', `_modified.pptx`);
 					const clonedFile = await powerPointFile.copyAsync(modifiedPath);
 
