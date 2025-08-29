@@ -1,14 +1,6 @@
-import { App, BlockCache, CachedMetadata, Editor, EditorPosition, LinkCache, Loc, MarkdownFileInfo, Plugin, TFile, parseLinktext } from 'obsidian';
+import { App, Editor, EditorPosition, Loc, MarkdownFileInfo, Plugin, TFile } from 'obsidian';
 import { PowerPointFile } from './PowerPointFile';
 
-type Context = {
-
-	editor: Editor,
-	fileCache: CachedMetadata,
-	currentLink: LinkCache,
-	file: TFile,
-
-}
 
 export default class AliasPickerPlugin extends Plugin {
 
