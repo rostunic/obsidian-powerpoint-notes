@@ -1,6 +1,6 @@
 {
 	"name": "obsidian-powerpoint-notes",
-	"version": "1.0.2",
+	"version": "1.0.0",
 	"description": "Synchronize your PowerPoint slides with a markdown note in Obsidian.",
 	"main": "main.js",
 	"repository": {
