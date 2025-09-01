@@ -3,7 +3,7 @@ import { PowerPointFile } from './PowerPointFile';
 
 const propertyNamePowerPointFile = 'powerPoint-file';
 
-export default class AliasPickerPlugin extends Plugin {
+export default class PowerPointNotesPlugin extends Plugin {
 
 	async onload() {
 		this.addCommand({
