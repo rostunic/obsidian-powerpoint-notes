@@ -83,7 +83,7 @@ async function writeToPowerPoint(nameAndItems: WriteNotesToSlidesData) {
 		await clonedFile.saveAsync();
 		new Notice(`Wrote notes to ${modifiedPath}`);
 	} catch (error) {
-		if (error instanceof Error && (error as any).code === "EBUSY") {
+		if (error instanceof Error && error.message.contains("EBUSY")) {
 			new Notice('Failed to save PowerPoint file. It is locked, so you probably need to close it.');
 			return;
 		}
